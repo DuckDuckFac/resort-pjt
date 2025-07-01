@@ -51,7 +51,7 @@ function ChatPage() {
   setSelectedFile(null);
   setImageName('');
 };
-
+  
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
